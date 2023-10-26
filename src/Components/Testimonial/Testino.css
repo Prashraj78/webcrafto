@@ -1,0 +1,61 @@
+.t-main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+
+}
+
+.t-main .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.t-main .header .hor-line {
+    width: 80px;
+    height: 2px;
+    background-color: black;
+}
+
+.t-main .test-flex .testimo  img {
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+.test-flex .testimo .name {
+    margin-top: 0px ;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.test-flex .testimo .destination{
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.test-flex {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 50px;
+    /* justify-items: center; */
+    justify-content: center;
+    /* margin: 0 20px; */
+}
+
+@media screen and (max-width : 900px) {
+    .t-main {
+        width: 100%;
+        padding: 0 80px;
+    }
+}

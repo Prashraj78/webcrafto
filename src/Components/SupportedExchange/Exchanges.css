@@ -1,0 +1,40 @@
+/* .x-main{
+    background-color: aquamarine;
+} */
+
+.x-main .header{
+    text-align: center;
+    margin: 40px;
+}
+
+
+.x-main .header .heading{
+    font-weight: 600;
+}
+
+.x-main .header p{
+    color: gray;
+    margin-top: -10px;
+}
+
+.x-main .header .img-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.x-main .header .img-div img{
+    height: 85px;
+    width: 230px;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width : 900px) {
+
+    .x-main{
+        width: 100%;
+        padding: 0 80px;
+    }
+}
